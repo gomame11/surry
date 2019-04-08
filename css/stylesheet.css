@@ -72,9 +72,9 @@ span{
 }
 
 .site_subtitle{
-  letter-spacing:2px;
+  letter-spacing: 1.5px;
   text-align: left;
-  line-height: 20px;
+  line-height: 25px;
 }
 
 .contact_link{
@@ -276,8 +276,7 @@ td{
 }
 
 .answer {
-  font-size: 12px;
-
+  font-size: 16px;
   padding: 5px 0px;
   margin-bottom: 15px;
 }
@@ -310,6 +309,7 @@ label{
 .contact_p{
   margin-top:50px;
   margin-bottom:20px;
+  font-weight: bold;
 }
 
 .submit{
