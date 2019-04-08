@@ -1,0 +1,371 @@
+
+body{
+  font-family: "M PLUS Rounded 1c";
+  text-align: center;
+  margin-left:auto;
+  margin-right: auto;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  color:#000;
+
+}
+
+/* --------------------------------
+ * トップ
+ * -------------------------------- */
+header{
+  position:relative
+}
+
+
+.top_wrapper{
+  background-color:#debd96;
+  height:700px;
+  max-width:100%;
+  margin:auto;
+  position:relative;
+  background: #eacda3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container{
+  width:1000px;
+  padding-top:15px;
+  padding-bottom:15px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.title-container{
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  width: 1000px;
+
+}
+.title{
+  float:left;
+  display:inline-block;
+}
+
+.site_title{
+  font-size:60px;
+  padding-top:50px;
+  margin-bottom:30px;
+  letter-spacing: 10px;
+  text-align:left;
+}
+
+.surry{
+  font-size:30px;
+  text-align:left;
+  line-height:50px;
+}
+
+span{
+  font-size:50px;
+}
+
+.site_subtitle{
+  letter-spacing:2px;
+  text-align: left;
+  line-height: 20px;
+}
+
+.contact_link{
+  display: inline-block;
+  float:left;
+  height:80px;
+  width:320px;
+  background-color:#fa6e59;
+  color:#fff
+  font-size:40px;
+  border-radius:20px;
+  line-height:80px;
+}
+
+.contact_link:hover{
+  background-color: #fc9080;
+}
+
+.img_top{
+  display:inline-block;
+  float:right;
+  width:400px;
+  height:400px;
+  border-radius:200px;
+  margin:50px 20px 50px 0;
+}
+
+/* --------------------------------
+ *　アバウト
+ * -------------------------------- */
+
+
+
+/* --------------------------------
+ * サービス
+ * -------------------------------- */
+.service_wrapper{
+  width:100%;
+  height:600px;
+  background-color:#fff;
+
+}
+.services{
+  display: inline-block;
+}
+
+.service_q{
+  width:300px;
+  height:100px;
+  float:left;
+  background-color:#FEEEDA;
+  border-radius: 20px;
+  margin-bottom:30px;
+  position:relative;
+}
+
+.icon{
+  height:50px;
+  width:50px;
+  float:left;
+  line-height:100px;
+  position:absolute;
+  top:25%;
+  left:5%;
+}
+
+.service_q_txt{
+  position:absolute;
+  left:30%;
+}
+
+h3 .service_q_txt{
+  margin-bottom:10px;
+}
+
+.right{
+  display:inline-block;
+  float:left;
+  margin:25px 50px;
+}
+
+.service_a{
+  display:flex;
+  align-items: center;
+  width:300px;
+  height:100px;
+  float: left;
+  background-color:#FEEEDA;
+  margin-bottom:30px;
+  border-radius: 20px;
+}
+
+.service_a_txt{
+  flex:1;
+
+}
+
+
+/* --------------------------------
+ * プライス
+ * -------------------------------- */
+
+.price_wrapper{
+  width:100%;
+  height:600px;
+  background-color: #fcf5ed
+}
+
+.prices{
+  display: inline-block;
+  margin-left:0 auto;
+  margin-right:0 auto;
+
+}
+
+.price{
+  display:inline-block;
+  width:25%;
+
+}
+
+.price_1{
+  display: inline-block;
+  margin-right:30px;
+}
+
+.price_2{
+  display: inline-block;
+}
+
+.price_3{
+  display: inline-block;
+  margin-left:30px;
+}
+
+.icon_2{
+  display:inline-block;
+  height:70px;
+  width:70px;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+
+.plan{
+  margin: auto;
+}
+
+.plan tr{
+  background-color:#ebd8c0;
+  height:40px;
+
+}
+
+th{
+  padding:10px 20px;
+}
+
+td{
+  padding:10px 10px;
+  width:130px;
+}
+
+
+
+/* --------------------------------
+ * FAQ
+ * -------------------------------- */
+.faq_wrapper {
+  height:400px;
+  background-color: #fff;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+#faq_list {
+  width: 600px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.faq_list_item {
+  margin:10px;
+  border-bottom:1px solid #fff;
+  position:relative;
+  text-align: left;
+}
+
+.faq_list_item h3 {
+  font-size: 16px;
+}
+
+.faq_list_item span {
+  position:absolute;
+  top:0;
+  right:5px;
+  color:#ccc;
+  font-size:13px;
+}
+
+.answer {
+  font-size: 12px;
+
+  padding: 5px 0px;
+  margin-bottom: 15px;
+}
+
+.qu{
+  font-size:20px;
+}
+/* --------------------------------
+ * コンタクト
+ * -------------------------------- */
+.contact-wrapper{
+  width:100%;
+  height:600px;
+  background-color:#fcf5ed;
+}
+
+.name,.mail{
+  height:40px;
+  width: 500px;
+}
+
+textarea{
+  width:500px;
+}
+
+label{
+  margin-right: 20px;
+}
+
+.contact_p{
+  margin-top:50px;
+  margin-bottom:20px;
+}
+
+.submit{
+  display:-webkit-box;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  height:80px;
+  width:320px;
+  background-color:#fa6e59;
+  color:#fff;
+  font-size:20px;
+  border-radius:20px;
+  line-height:80px;
+}
+
+/* --------------------------------
+ * フッタ
+ * -------------------------------- */
+footer{
+  height:50px;
+  background-color:#debd96;
+}
+
+footer p{
+  line-height:50px;
+}
+
+/* --------------------------------
+ * 共通部分
+ * -------------------------------- */
+.heading{
+  padding:20px 0 10px 0;
+  margin-bottom:0px;
+  font-size:30px;
+  position:relative;
+  display:inline-block;
+}
+
+.heading::before{
+  bottom:5px;
+}
+.heading::after{
+  content:'';
+  position: absolute;
+  right: 0;
+  bottom:0;
+  left:0;
+  border-bottom:2px solid #fa6e59
+}
+
+.heading_p{
+  margin-top:20px;
+  margin-bottom:50px;
+}
+
+a{
+text-decoration: none;
+}
